@@ -31,6 +31,12 @@ link, an error will be triggered and reported to Honeybadger. Check
 your email for a message from Honeybadger with a link to the error you
 just recorded.
 
+### Simulate a POST request
+
+```sh
+curl -d"foo=bar&bar=baz&user_email=user@example.com" -H"Content-Type: application/x-www-form-urlencoded" http://127.0.0.1:3000/fail
+```
+
 ## Enjoy!
 
 We hope this sample app gives you an easy way to see just how awesome
