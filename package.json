@@ -1,7 +1,7 @@
 {
   "name": "crywolf-node",
   "version": "0.0.1",
-  "description": "Honeybadger example for Node.JS",
+  "description": "Honeybadger example for Node.js",
   "main": "app.js",
   "dependencies": {
     "body-parser": "^1.15.0",

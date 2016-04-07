@@ -1,0 +1,8 @@
+{
+  "name": "Honeybadger example for Node.js",
+  "description": "A sample Node web application which reports errors to Honeybadger.",
+  "repository": "https://github.com/honeybadger-io/crywolf-node",
+  "logo": "https://www.honeybadger.io/images/logo.jpg",
+  "keywords": ["node", "express", "exceptions", "errors", "honeybadger"],
+  "addons": [ "honeybadger" ]
+}
