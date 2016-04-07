@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 app.get('/', function (req, res) {
   console.log(req.body);
-  res.send('Looking to <a href="/fail?foo=bar&bar=baz&user_email=josh@honeybadger.io">fail?</a>');
+  res.send('Looking to <a href="/fail?foo=bar&bar=baz&user_email=user@example.com">fail?</a>');
 });
 
 app.all('/fail', function (req, res) {
