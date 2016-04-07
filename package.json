@@ -4,9 +4,9 @@
   "description": "Honeybadger example for Node.JS",
   "main": "app.js",
   "dependencies": {
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "honeybadger": "github:honeybadger-io/honeybadger-node#rewrite"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/honeybadger-io/crywolf-node.git"
