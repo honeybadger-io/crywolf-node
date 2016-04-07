@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "Honeybadger example for Node.JS",
   "main": "app.js",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.13.4"
+  },
   "devDependencies": {},
   "repository": {
     "type": "git",
