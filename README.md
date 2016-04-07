@@ -34,7 +34,7 @@ just recorded.
 ### Simulate a POST request
 
 ```sh
-curl -d"foo=bar&bar=baz&user_email=user@example.com" -H"Content-Type: application/x-www-form-urlencoded" http://127.0.0.1:3000/fail
+curl -d"foo=bar&bar=baz&password=sekret" -H"Content-Type: application/x-www-form-urlencoded" http://127.0.0.1:3000/fail
 ```
 
 ## Enjoy!
