@@ -1,5 +1,5 @@
 {
-  "name": "Honeybadger example for Node.js",
+  "name": "Honeybadger example for Node",
   "description": "A sample Node web application which reports errors to Honeybadger.",
   "repository": "https://github.com/honeybadger-io/crywolf-node",
   "logo": "https://www.honeybadger.io/images/logo.jpg",
