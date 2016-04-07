@@ -1,0 +1,25 @@
+{
+  "name": "crywolf-node",
+  "version": "0.0.1",
+  "description": "Honeybadger example for Node.JS",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/honeybadger-io/crywolf-node.git"
+  },
+  "keywords": [
+    "honeybadger",
+    "errors",
+    "exceptions",
+    "monitoring",
+    "example"
+  ],
+  "author": "Joshua Wood <josh@honeybadger.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/honeybadger-io/crywolf-node/issues"
+  },
+  "homepage": "https://github.com/honeybadger-io/crywolf-node"
+}
