@@ -8,12 +8,12 @@ var app = express();
 
 app.set('port', (process.env.PORT || 3000));
 
+app.use(Honeybadger.metricHandler);
 app.use(Honeybadger.requestHandler);
 
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.get('/', function (req, res) {
-  console.log(req.body);
   res.send('Looking to <a href="/fail?foo=bar&bar=baz">fail?</a>');
 });
 
