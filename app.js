@@ -8,6 +8,8 @@ var app = express();
 
 app.set('port', (process.env.PORT || 3000));
 
+app.use(Honeybadger.requestHandler);
+
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.get('/', function (req, res) {
