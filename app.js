@@ -3,10 +3,13 @@ var bodyParser = require('body-parser')
 var Honeybadger = require('honeybadger');
 
 Honeybadger.logger.level = 'info';
+Honeybadger.metricsInterval = 10000;
 
 var app = express();
 
 app.set('port', (process.env.PORT || 3000));
+
+app.use(Honeybadger.metricsHandler);
 
 app.use(Honeybadger.requestHandler);
 
