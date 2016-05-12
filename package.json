@@ -6,7 +6,7 @@
   "dependencies": {
     "body-parser": "^1.15.0",
     "express": "^4.13.4",
-    "honeybadger": "github:honeybadger-io/honeybadger-node#metrics"
+    "honeybadger": "^1.1.0"
   },
   "repository": {
     "type": "git",
