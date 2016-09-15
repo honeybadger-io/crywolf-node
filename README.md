@@ -21,7 +21,7 @@ If you'd like to do it the old fashioned way, follow these steps:
    page
 3. Clone or download this app
 4. Run `npm install` to get the necessary dependencies installed
-5. Run the app: `HONEYBADGER_ENV=producation HONEYBADGER_API_KEY=your_api_key_here node app.js`
+5. Run the app: `HONEYBADGER_ENV=production HONEYBADGER_API_KEY=your_api_key_here node app.js`
 
 ## Trying It Out
 
