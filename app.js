@@ -1,15 +1,15 @@
 var express = require('express');
 var bodyParser = require('body-parser')
-var Honeybadger = require('honeybadger');
+var Honeybadger = require('@honeybadger-io/js');
 
-Honeybadger.logger.level = 'info';
-Honeybadger.metricsInterval = 10000;
+Honeybadger.configure({
+  apiKey: process.env.HONEYBADGER_API_KEY,
+  environment: process.env.HONEYBADGER_ENV
+});
 
 var app = express();
 
 app.set('port', (process.env.PORT || 3000));
-
-app.use(Honeybadger.metricsHandler);
 
 app.use(Honeybadger.requestHandler);
 
