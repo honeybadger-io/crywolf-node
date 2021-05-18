@@ -4,7 +4,7 @@
   "description": "Honeybadger example for Node.js",
   "main": "app.js",
   "dependencies": {
-    "@honeybadger-io/js": "^3.0.1",
+    "@honeybadger-io/js": "^3.2.1",
     "body-parser": "^1.15.0",
     "express": "^4.13.4"
   },
