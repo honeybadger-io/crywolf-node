@@ -6,7 +6,7 @@
   "dependencies": {
     "@honeybadger-io/js": "^3.0.1",
     "body-parser": "^1.15.0",
-    "express": "^4.13.4"
+    "express": "^4.19.2"
   },
   "repository": {
     "type": "git",
